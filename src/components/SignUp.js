@@ -6,7 +6,7 @@ import Link from "next/link";
 export function SignUP() {
   return (
     <div className="flex flex-row w-[screen] h-[screen]">
-      <div className="w-[50%] h-[1450px] bg-[white] flex justify-center items-center">
+      <div className="w-[50%] h-[1170px] bg-[white] flex justify-center items-center">
         <div className="w-[384px] h-[426px] flex flex-col gap-10 items-center">
           <Logo />
           <Title
@@ -39,7 +39,7 @@ export function SignUP() {
           <div className="flex flex-row gap-2 w-[220px] h-[32px]">
             <p className="text-xs text-[#0F172A]">Already have account?</p>
             <Link href="/Login" className="text-[#0166FF] text-xs ">
-              Log in{" "}
+              Log in
             </Link>
           </div>
         </div>
