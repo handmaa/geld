@@ -5,3 +5,6 @@ export { Title } from "./Title";
 export { Main } from "./Main";
 export { Card } from "./Card";
 export { Card2 } from "./Card2";
+export { LastRecord } from "./LastRecord";
+export { Header } from "./Header";
+export { AddRecord } from "./AddRecord";
